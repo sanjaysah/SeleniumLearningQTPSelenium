@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1612" started-at="2018-03-07T20:38:13Z" finished-at="2018-03-07T20:38:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1612" started-at="2018-03-07T20:38:13Z" finished-at="2018-03-07T20:38:15Z">
+      <class name="trainingVideo23POMPF.DataReadWrite">
+        <test-method status="PASS" signature="testA(java.util.Hashtable)[pri:0, instance:trainingVideo23POMPF.DataReadWrite@46d56d67]" name="testA" duration-ms="37" started-at="2018-03-08T02:08:15Z" data-provider="getData" finished-at="2018-03-08T02:08:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Col4=B4, Col3=B3, Col2=B2, Col1=B1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="PASS" signature="testA(java.util.Hashtable)[pri:0, instance:trainingVideo23POMPF.DataReadWrite@46d56d67]" name="testA" duration-ms="9" started-at="2018-03-08T02:08:15Z" data-provider="getData" finished-at="2018-03-08T02:08:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Col4=B8, Col3=B7, Col2=B6, Col1=B5}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+      </class> <!-- trainingVideo23POMPF.DataReadWrite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

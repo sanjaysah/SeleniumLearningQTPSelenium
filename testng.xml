@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SuiteAB"><!--  parallel="instances" thread-count="5" --> 
+
+<listeners>
+<listener class-name="com.qtpselenium.selenium.TV9Part56.CustomListener"></listener>
+</listeners>
+
+<suite-files>
+	<suite-file path="./Suite_A.xml"/>
+	<suite-file path="./Suite_B.xml"/>
+</suite-files>
+
+</suite>

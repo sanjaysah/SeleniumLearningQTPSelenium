@@ -1,4 +1,4 @@
-package com.qtpselenium.selenium.SeleniumLearningQTPSelenium;
+package com.qtpselenium.selenium;
 
 /**
  * Hello world!

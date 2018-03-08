@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [LearningTestNG]" parallel="instances">
+  <listeners>
+    <listener class-name="com.qtpselenium.selenium.TV9Part5.CustomListener"/>
+  </listeners>
+  <test name="Test1(failed)" parallel="instances">
+    <classes>
+      <class name="com.qtpselenium.selenium.TV9Part5.ListenerOverirdeMethodsUse1">
+        <methods>
+          <include name="testC"/>
+          <include name="testB"/>
+        </methods>
+      </class> <!-- com.qtpselenium.selenium.TV9Part5.ListenerOverirdeMethodsUse1 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [LearningTestNG] -->
