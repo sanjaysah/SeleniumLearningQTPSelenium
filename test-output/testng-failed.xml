@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="trainingVideo23POMPF.DataReadWrite">
+      <class name="trainingvideo13.MultileObjectInSection">
         <methods>
-          <include name="testA"/>
+          <include name="getElementsInSection"/>
+          <include name="quit"/>
         </methods>
-      </class> <!-- trainingVideo23POMPF.DataReadWrite -->
+      </class> <!-- trainingvideo13.MultileObjectInSection -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

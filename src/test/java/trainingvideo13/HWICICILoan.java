@@ -29,6 +29,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
+////Here Browser options like firefoxoptions, ChromeOptions etc example are added - Very Imp...
+
 public class HWICICILoan {
 	String browser="chrome";
 	WebDriver driver;
