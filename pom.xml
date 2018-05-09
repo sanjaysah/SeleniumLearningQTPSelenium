@@ -13,8 +13,8 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   
-<!--  <build>  -->
- 	<reporting>
+<!--  <reporting>  -->
+ 	<build>
 	<plugins>
 		<!-- Compiler plug-in -->
 		<plugin>
@@ -57,8 +57,8 @@
 		  <version>2.5</version>
 		</plugin>
 	</plugins>
-	</reporting>
-<!-- </build>  -->
+	</build>
+<!-- </reporting>  -->
   
 
   <dependencies>
